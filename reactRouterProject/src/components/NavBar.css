@@ -1,0 +1,67 @@
+.imageWrap{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 68px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.buttonWrap{
+    margin-right: 50px;
+    margin-top: 5px;
+    
+}
+
+#logoutBtn{
+    width: 50px;
+    height: 20px;
+    background-color: burlywood;
+    border: none;
+}
+
+#loginBtn{
+    width: 50px;
+    height: 20px;
+    background-color: burlywood;
+    border: none;
+}
+
+#imageAvatar{
+    /* margin-right: 50px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    background-color: brown;
+    width: 105px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.link:hover{
+    background-color: beige;
+    color: black;
+}
